@@ -3,12 +3,12 @@ import com.google.gson.Gson;
 public class Exercicio {
     public static void main(String[] args) {
 
-        String jsonOper1 = "{\"operacao\":\"Adicao\",\"valor1\":0.5\",\"valor2\":24.5\"}";
-        String jsonOper2 = "{\"operacao\":\"Subtracao\",\"valor1\":0.5\",\"valor2\":25.5\"}";
-        String jsonOper3 = "{\"operacao\":\"Multiplicacao\",\"valor1\":0.5\",\"valor2\":50.0\"}";
-        String jsonOper4 = "{\"operacao\":\"Divisao\",\"valor1\":0.5\",\"valor2\":0.02\"}";
-        String jsonOper5 = "{\"operacao\":\"Divisao\",\"valor1\":0.5\",\"valor2\":0.0\"}";
-        String jsonOper6 = "{\"operacao\":\"Chuta\",\"valor1\":0.5\",\"valor2\":0.0\"}";
+        String jsonOper1 = "{\"nome\":\"Adicao\",\"valor1\":\"0.5\",\"valor2\":\"24.5\"}";
+        String jsonOper2 = "{\"nome\":\"Subtracao\",\"valor1\":\"0.5\",\"valor2\":\"25.5\"}";
+        String jsonOper3 = "{\"nome\":\"Multiplicacao\",\"valor1\":\"0.5\",\"valor2\":\"50.0\"}";
+        String jsonOper4 = "{\"nome\":\"Divisao\",\"valor1\":\"0.5\",\"valor2\":\"0.02\"}";
+        String jsonOper5 = "{\"nome\":\"Divisao\",\"valor1\":\"0.5\",\"valor2\":\"0.0\"}";
+        String jsonOper6 = "{\"nome\":\"Chuta\",\"valor1\":\"0.5\",\"valor2\":\"0.0\"}";
 
 
         Gson gson = new Gson();
